@@ -186,6 +186,7 @@ fun HeroSection(menuItemsLocal: List<MenuItemRoom>) {
 
                 ) {
                     Text(text = "Starters", style = MaterialTheme.typography.bodyMedium)
+
                 }
 
                 Button(

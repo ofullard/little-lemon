@@ -69,11 +69,12 @@ fun Profile(navController: NavController) {
             modifier = Modifier.padding(top = 16.dp)
 
         ) {
-            Text("Register", style = MaterialTheme.typography.labelLarge,
+            Text("Logout", style = MaterialTheme.typography.labelLarge,
                 color = Color(0xFFF4CE14)
 
             )
         }
+
     }
 }
 

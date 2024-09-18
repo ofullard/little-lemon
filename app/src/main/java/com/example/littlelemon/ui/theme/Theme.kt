@@ -2,6 +2,7 @@ package com.example.littlelemon.ui.theme
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.MaterialTheme.colorScheme
 import androidx.compose.material3.darkColorScheme
@@ -25,20 +26,19 @@ private val LightColorPalette = lightColorScheme(
     primary = PrimaryYellow,
     secondary = Secondary1,
     onPrimary = Color.Black
-
-
-
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
 )
+
+
+
+/* Other default colors to override
+background = Color(0xFFFFFBFE),
+surface = Color(0xFFFFFBFE),
+onPrimary = Color.White,
+onSecondary = Color.White,
+onTertiary = Color.White,
+onBackground = Color(0xFF1C1B1F),
+onSurface = Color(0xFF1C1B1F),
+*/
 
 @Composable
 fun LittleLemonTheme(
@@ -64,6 +64,8 @@ fun LittleLemonTheme(
         colorScheme = colorScheme,
         typography = LittleLemonTypography,
         content = content,
-        shapes = Shapes
+        shapes = Shapes,
+
+
     )
 }
